@@ -7,6 +7,7 @@
 %define vendor_pretty Zenfone
 %define device_pretty MAX PRO M1
 
+%define droid_target_aarch64 1
 %define installable_zip 1
 
 %include rpm/dhd/droid-hal-device.inc

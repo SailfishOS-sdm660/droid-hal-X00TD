@@ -4,11 +4,22 @@
 %define device X00TD
 %define vendor asus
 
+%define rpm_device x00td
+%define rpm_vendor asus
+
 %define vendor_pretty Zenfone
 %define device_pretty MAX PRO M1
 
 %define droid_target_aarch64 1
 %define installable_zip 1
+
+%define straggler_files \
+/init.mmi.boot.sh\
+/init.mmi.touch.sh\
+/init.qcom.ssr.sh\
+/selinux_version\
+/service_contexts\
+%{nil}
 
 %include rpm/dhd/droid-hal-device.inc
 

@@ -14,11 +14,15 @@
 %define installable_zip 1
 
 %define straggler_files \
-/init.mmi.boot.sh\
-/init.mmi.touch.sh\
-/init.qcom.ssr.sh\
-/selinux_version\
-/service_contexts\
+   /bt_firmware \
+   /bugreports \
+   /cache \
+   /d \
+   /dsp \
+   /firmware \
+   /persist \
+   /product \
+   /sdcard \
 %{nil}
 
 %include rpm/dhd/droid-hal-device.inc
